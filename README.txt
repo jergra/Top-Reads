@@ -8,5 +8,5 @@ modified from tutorial:
 
     by Jan Marshal
 
-This is a website which provides reading material selected from 
-other websites.
+This is a website which provides reading material selected 
+from other websites.
