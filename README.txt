@@ -12,7 +12,7 @@ from other websites.
 deployed:
     https://top-reads.vercel.app
 
-to add content to the database, go to:
+to change database content, go to:
     https://topreads.sanity.studio
 
 
