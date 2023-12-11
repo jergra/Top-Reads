@@ -1,4 +1,4 @@
-export interface Post {
+/* export interface Post {
     title: string
     overview: string
     content: any
@@ -7,4 +7,4 @@ export interface Post {
         current: string
     }
     _createdAt: string
-}
+} */
