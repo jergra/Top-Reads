@@ -12,6 +12,8 @@ async function getData(slug: string) {
     return data
 }
 
+export const revalidate = 60 // revalidate this page every 60 seconds
+
 export default async function SlugPage({
     params
 }: {params: {slug: string}
