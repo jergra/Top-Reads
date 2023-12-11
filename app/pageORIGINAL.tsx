@@ -1,4 +1,4 @@
-import Link from "next/link"
+/* import Link from "next/link"
 import { Post } from "./lib/interface"
 import { client } from "./lib/sanity"
 
@@ -53,3 +53,4 @@ export default async function IndexPage() {
     </div>
   )
 }
+ */
