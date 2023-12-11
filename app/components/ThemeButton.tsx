@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 function ThemeButton() {
     const {setTheme, resolvedTheme} = useTheme()
 
-    /* const [mounted, setMounted] = useState(false);
+    const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
         setMounted(true);
@@ -14,7 +14,7 @@ function ThemeButton() {
 
     if (!mounted) {
         return null;
-    } */
+    }
   
     return (
         <button
