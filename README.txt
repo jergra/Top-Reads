@@ -15,4 +15,13 @@ deployed:
 to change database content, go to:
     https://topreads.sanity.studio
 
+to change the structure of the database:
+    make changes to sanity/schemas/post.ts 
+    cd sanity
+    npm run dev
+    npm run deploy
+
+
+
+
 

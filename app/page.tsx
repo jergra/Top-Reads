@@ -33,8 +33,7 @@ export default async function IndexPage() {
               </div>
 
               <Link 
-                href={`/post/${post.overview}`} 
-                prefetch 
+                href={post.url}
                 className='space-y-3 xl:col-span-3'
               >
                 <div>
@@ -42,7 +41,7 @@ export default async function IndexPage() {
                     {post.title}
                   </h3>
                 </div>
-                <p className='prose max-w-none text-gray-500 dark:text-gray-400 line-clamp-8'>
+                <p className='prose max-w-none text-gray-500 dark:text-gray-400 line-clamp-6'>
                   {post.content}
                 </p>
               </Link>

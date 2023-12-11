@@ -9,9 +9,9 @@ export default {
             title: 'Title'
         },
         {
-            name: 'overview',
+            name: 'url',
             type: 'string',
-            title: 'Overview'
+            title: 'URL'
         },
         {
             name: 'slug',
@@ -23,23 +23,8 @@ export default {
         },
         {
             name: 'content',
-            type: 'array',
+            type: 'string',
             title: 'Content',
-            of: [
-                {
-                    type: 'block'
-                },
-                {
-                    type: 'image',
-                    fields: [
-                        {
-                            type: 'text',
-                            name: 'alt',
-                            title: 'Alternative Text'
-                        }
-                    ]
-                }
-            ]
         },
 
     ]
