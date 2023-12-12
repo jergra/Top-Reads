@@ -3,8 +3,7 @@ export interface Post {
     url: string
     content: any
     _id: string
-    slug: {
-        current: string
-    }
+    author: string
+    publication: string
     _createdAt: string
 }

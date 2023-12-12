@@ -14,12 +14,14 @@ export default {
             title: 'URL'
         },
         {
-            name: 'slug',
-            type: 'slug',
-            title: 'Slug',
-            options: {
-                source: 'title'
-            }
+            name: 'author',
+            type: 'string',
+            title: 'Author'
+        },
+        {
+            name: 'publication',
+            type: 'string',
+            title: 'Publication'
         },
         {
             name: 'content',

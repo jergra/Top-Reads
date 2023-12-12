@@ -1,5 +1,7 @@
 Dec 10, 2023
 
+dev/topreads
+
 modified from tutorial:
     Build and Deploy a Blog with Next.js 13 | React, Tailwind.css, Sanity.io | Tutorial 2023
     https://www.youtube.com/watch?v=MqmzrQ1MNG8&t=25s
@@ -16,7 +18,7 @@ to change database content, go to:
     https://topreads.sanity.studio
 
 to change the structure of the database:
-    make changes to sanity/schemas/post.ts 
+    make changes to sanity/schemas/post.ts and app/lib/interface.ts
     cd sanity
     npm run dev
     npm run deploy
