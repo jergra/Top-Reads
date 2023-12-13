@@ -3,7 +3,7 @@ import { Post } from "./lib/interface"
 import { client } from "./lib/sanity"
 
 async function getData() {
-  const query = `*[_type == "post"] | order(_createdAt desc) [0...40]`
+  const query = `*[_type == "post"] | order(_createdAt desc) [0...50]`
 
   const data = await client.fetch(query)
 

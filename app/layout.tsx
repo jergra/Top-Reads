@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-white text-black dark:bg-gray-900 dark:selection:bg-gray-900 dark:text-white h-full selection:bg-gray-50`}>
         <Providers>
           <Navbar />
-          <main className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-10'>
+          <main className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-5'>
             {children}
           </main>
           <Footer />
