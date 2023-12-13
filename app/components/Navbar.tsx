@@ -6,11 +6,11 @@ function Navbar() {
     <div className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-3'>
         <div className='flex justify-between h-16'>
             <div className='flex justify-between items-center w-full'>
-                <Link href='/'>
+                {/* <Link href='/'> */}
                     <h1 className='text-5xl font-extrabold leading-9 tracking-tight textgray-900 dark:text-gray-100 sm:text-5xl sm:leading-10 md:text-5xl md:leading-14'>
                         Top <span className='text-teal-500'>Reads</span>
                     </h1>
-                </Link>
+                {/* </Link> */}
                 <ThemeButton />
             </div>
         </div>

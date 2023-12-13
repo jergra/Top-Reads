@@ -54,6 +54,7 @@ export default async function IndexPage() {
           </li>
         ))}
       </ul>
+      <hr className='divide-gray-200 dark:divide-gray-700 mt-10' />
     </div>
   )
 }
