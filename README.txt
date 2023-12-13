@@ -23,6 +23,9 @@ to change the structure of the database:
     npm run dev
     npm run deploy
 
+
+
+
 to revert the project to its original form, use the code in:
     app/lib/interfaceORIGINAL.ts
     app/pageORIGINAL.tsx
@@ -99,8 +102,4 @@ export default async function SlugPage({
         </div>
     )
 }
-
-
-
-
 
